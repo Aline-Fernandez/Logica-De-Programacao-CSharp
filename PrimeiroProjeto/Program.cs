@@ -7,7 +7,6 @@ namespace PrimeiroProjeto
     {
         static void Main(string[] args)
         {
-
             double x = 10.35784;
 
             Console.WriteLine(x);
