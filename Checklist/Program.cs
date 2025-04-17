@@ -9,8 +9,7 @@ Console.WriteLine("Entre com o preço de um produto: ");
 double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
 
-
-Console.WriteLine("Entre com seu último nome, idade e altura (mesma linha): ");
+Console.WriteLine("Entre com seu último sobrenome, idade e altura (mesma linha): ");
 string[] vet = Console.ReadLine().Split(' ');
 string Sobrenome = vet[0];
 int idade = int.Parse(vet[1]);
